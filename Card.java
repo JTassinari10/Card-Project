@@ -11,11 +11,11 @@ package card;
  * and open the template in the editor.
  */
 
-//package com.company;
 
+//is this working
 public class Card {
-    private CardSuit cardSuit;
-    private CardKind cardKind;
+    private final CardSuit cardSuit;
+    private final CardKind cardKind;
 
     public enum CardSuit {
         HEARTS,
